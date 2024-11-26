@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <TextView
+            android:text="is Work: "
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp">
+    </TextView>
+    <Button
+            android:id="@+id/btnLocationSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="@string/location_settings">
+    </Button>
+    <Button
+            android:id="@+id/onUpdateData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="Update"
+            android:textAllCaps="false">
+    </Button>
+    <Button
+            android:id="@+id/StartService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="Start Service"
+            android:textAllCaps="false">
+    </Button>
+    <Button
+            android:id="@+id/StopService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="Stop Service"
+            android:textAllCaps="false">
+    </Button>
+    <Button
+            android:id="@+id/writefile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="Write File"
+            android:textAllCaps="false">
+    </Button>
+    <Button
+            android:id="@+id/readfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="Read File"
+            android:textAllCaps="false">
+    </Button>
+    <Button
+            android:id="@+id/deletefile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"
+            android:text="Delete File"
+            android:textAllCaps="false">
+    </Button>
+</LinearLayout>
